@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="primary">#e4923f</color>
+
+    <!--Screens Backgrounds-->
+    <color name="screen1">#ff0000</color>
+    <color name="screen2">#ff5900</color>
+    <color name="screen3">#ffaa00</color>
+    <color name="screen4">#ffe100</color>
+
+    <!--Active Dots colour-->
+    <color name="dot_dark">#ffffff</color>
+
+    <!--Inctive Dots colour-->
+    <color name="dot_light">#cccaca</color>
+</resources>

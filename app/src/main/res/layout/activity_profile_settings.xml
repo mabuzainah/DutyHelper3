@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohammedabu.sportprofilemanager.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select a new Avatar"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Load from your phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/teamid00"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+        <ImageView
+            android:id="@+id/teamid01"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+        <ImageView
+            android:id="@+id/teamid02"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_row="0"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+        <ImageView
+            android:id="@+id/teamid03"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+        <ImageView
+            android:id="@+id/teamid04"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="1"
+            android:layout_columnSpan="1"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+        <ImageView
+            android:id="@+id/teamid05"
+            android:layout_width="121dp"
+            android:layout_height="145dp"
+            android:layout_column="2"
+            android:layout_columnSpan="1"
+            android:layout_row="1"
+            android:layout_rowSpan="1"
+            app:srcCompat="@drawable/profile1" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
