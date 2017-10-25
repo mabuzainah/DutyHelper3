@@ -31,8 +31,14 @@ public class PeopleFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_people2, container, false);
-       // settingsButton = (ImageButton) view.findViewById(R.id.settingsButton);
-       // settingsButton.setOnClickListener(this);
+        settingsButton = (ImageButton) view.findViewById(R.id.settingButton);
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent settingsClick = new Intent(getActivity(), profileSettings.class);
+                getActivity().startActivity(settingsClick);
+            }
+        });
 
 
         /**

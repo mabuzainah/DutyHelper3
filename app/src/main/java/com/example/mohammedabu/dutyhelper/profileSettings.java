@@ -2,6 +2,7 @@ package com.example.mohammedabu.dutyhelper;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class profileSettings extends AppCompatActivity {
 

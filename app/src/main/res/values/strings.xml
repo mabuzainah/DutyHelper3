@@ -31,6 +31,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="loading">Loading…</string>
 
     <!-- Strings related to Bottom Navigation Bar -->
     <string name="calender">Calender</string>
@@ -117,4 +118,11 @@
     <string name="prompt_Age">Age</string>
     <string name="prompt_address">Address</string>
     <string name="prompt_number">Mobile Number</string>
+    <string name="pickDate">Pick a Date</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="nextWeek">Next Week</string>
+    <string name="doNow">Do it Now!</string>
+    <string name="recurringEvent">Recurring Event?</string>
+    <string name="taskHint">Type in your task...</string>
 </resources>
