@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff">
@@ -26,7 +25,7 @@
             android:background="@android:color/transparent"
             android:ems="10"
             android:gravity="center"
-            android:hint="Type in your task"
+            android:hint="@string/taskHint"
             android:inputType="textPersonName"
             android:textColorHint="#000000"
             app:layout_constraintBottom_toTopOf="@+id/imageView7"
@@ -97,6 +96,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -111,6 +111,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -124,6 +125,7 @@
             android:layout_height="86dp"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -162,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="36dp"
                 android:layout_marginTop="8dp"
                 android:text="@string/today"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -197,6 +199,7 @@
             android:layout_height="86dp"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -249,13 +252,13 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="8dp"
             android:layout_weight="0.02"
-            android:text="Recurring Event?"
+            android:text="@string/recurringEvent"
             android:textColor="#000000" />
 
-            <Button
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel"/>
+            android:text="@android:string/cancel" />
 
     </LinearLayout>
 
